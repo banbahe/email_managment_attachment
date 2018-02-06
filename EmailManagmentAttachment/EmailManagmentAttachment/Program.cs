@@ -19,8 +19,11 @@ namespace EmailManagmentAttachment
 
         static void Main(string[] args)
         {
-            string clientJson = "client_secret_123.json";
             IAttach attach = new AttachController();
+            OutlookController outlookController = new OutlookController(attach);
+            outlookController.Read();
+            throw new Exception("");
+            //
             IGmail gmail = new GmailController(attach);
 
             UserCredential credential;

@@ -12,7 +12,7 @@ namespace EmailManagmentAttachment.Controllers
     {
         // string pathinit = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments, Environment.SpecialFolderOption.Create), "emailmanagmentattachment", "dist");
 
-        private readonly string _pathinit = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments, Environment.SpecialFolderOption.Create), "emailmanagmentattachment", "dist");
+        private readonly string _pathinit = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments, Environment.SpecialFolderOption.Create), "emailmanagmentattachment", "iblanquelhotmailcom", "dist");
         public string pathinit => _pathinit;
 
         public string file { get; set; }
